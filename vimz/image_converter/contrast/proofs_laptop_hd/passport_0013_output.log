@@ -1,0 +1,31 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/aristidas/Desktop/ZKP Experiment/vimz/image_converter/contrast/outputs_hd/passport_0013.json
+| Output file: /home/aristidas/Desktop/ZKP Experiment/vimz/image_converter/contrast/proofs/passport_0013_proof.json
+| Selected function: contrast
+| Circuit file: circuits/contrast_step_HD.r1cs
+| Witness generator: circuits/contrast_step_HD_cpp/contrast_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/contrast_step_HD_cpp/contrast_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 17.811252564s
+Number of constraints per step (primary circuit): 518749
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 495705
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 1040.096520853s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x1a5479bc19d2db2986c9deaae0e0635ae94a61bb31eb2c8e59297d60c964c23c, 0x1c941daa825c39fafbb8e76c1eae35dc438b89487862f17d60fb66705e306ac2, 0x000000000000000000000000000000000000000000000000000000000000000f], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 1.339145813s
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 27.465376532s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 1.212231217s

@@ -1,0 +1,31 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/aristidas/Desktop/ZKP Experiment/vimz/image_converter/crop/outputs_hd/passport_0030.json
+| Output file: /home/aristidas/Desktop/ZKP Experiment/vimz/image_converter/crop/proofs/passport_0030_proof.json
+| Selected function: crop
+| Circuit file: circuits/optimized_crop_step_HD.r1cs
+| Witness generator: circuits/optimized_crop_step_HD_cpp/optimized_crop_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/optimized_crop_step_HD_cpp/optimized_crop_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 8.97622989s
+Number of constraints per step (primary circuit): 157312
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 156666
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 425.24489478s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x09cbd480c02f7b43d4e5d1a38b36c738d23e8067fac4a534ab4a68b9dc9dea45, 0x11cf42d6f8b1823af78b98f12433169322c7095a3f31af23938c58ac953a3e33, 0x00000000000000000000000000000000000000000000000000000000000002d0], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 411.08128ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 14.353933438s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 559.936637ms

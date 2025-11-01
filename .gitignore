@@ -1,0 +1,18 @@
+# Rust/Cargo build artifacts
+**/target/
+*.rlib
+*.so
+
+# Compiled binaries
+*.o
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+

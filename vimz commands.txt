@@ -1,0 +1,6 @@
+crop:
+vimz --function crop --resolution HD --input samples/JSON/HD/transformation_crop_op.json --circuit circuits/optimized_crop_step_HD.r1cs --output crop_HD_proof.json --witnessgenerator circuits/optimized_crop_step_HD_cpp/optimized_crop_step_HD
+
+resize:
+vimz --function resize 
+--resolution HD --input samples/JSON/HD/transformation_resize.json --circuit circuits/resize_step_HD.r1cs --output resize_HD_proof.json --witnessgenerator circuits/resize_step_HD_cpp/resize_step_HD
