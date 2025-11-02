@@ -1,0 +1,31 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0024.json
+| Output file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/blur/proofs_laptop_hd/passport_0024_proof.json
+| Selected function: blur
+| Circuit file: circuits/blur_step_HD.r1cs
+| Witness generator: circuits/blur_step_HD_cpp/blur_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/blur_step_HD_cpp/blur_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 31.992170068s
+Number of constraints per step (primary circuit): 559724
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 544360
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 1207.48819365s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x2d2f4cd9c9746b2922cc28f235edc26038f32ad149ae0b705b0fb600b031b3b9, 0x3590781de9c2b95ddf30682b86a8afeb00c2c4073cd6abf3b61476b2b7cf78e1, 0x1e248d8574160dedbf75e0922f0f3aef34db01006e1ec488c205c417df99a20e, 0x33b91424e92836dc5a01ed9ebacaa8d07877136e7ba8cf5e5226fb98edc77e6e], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 1.608578385s
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 55.370170765s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 2.00715114s

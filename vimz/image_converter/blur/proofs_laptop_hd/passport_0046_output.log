@@ -1,0 +1,31 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0046.json
+| Output file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/blur/proofs_laptop_hd/passport_0046_proof.json
+| Selected function: blur
+| Circuit file: circuits/blur_step_HD.r1cs
+| Witness generator: circuits/blur_step_HD_cpp/blur_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/blur_step_HD_cpp/blur_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 120.082159647s
+Number of constraints per step (primary circuit): 559724
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 544360
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 3600.273041846s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x3ebf8eb50227123dbffee19a086ba928f5830c3563e7f2a012f8b669e3714106, 0x3590781de9c2b95ddf30682b86a8afeb00c2c4073cd6abf3b61476b2b7cf78e1, 0x141eaaf21e170e75e6de5038c9724f7a2217200572bd61cf8c41b4ce42f136cf, 0x19bcb8cd58f2d58072254cee725405c3f62e8826901f1037c2f830da29d7cf63], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 4.109505415s
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 122.579758108s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 6.739239915s

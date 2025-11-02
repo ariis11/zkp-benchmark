@@ -85,18 +85,30 @@ for json_file in "$FULL_INPUT_DIR"/*.json; do
         
         echo "[$COUNT/$TOTAL] Processing: $BASENAME"
         
-        # Run vimz and capture all output
-        # For crop, function is "crop" (not "fixedcrop" based on your command)
-        vimz \
+        # Create a temporary file for time statistics (stderr from time command)
+        TIME_STATS="$FULL_OUTPUT_DIR/${BASENAME}_time_stats.log"
+        
+        # Run vimz with time -v to capture memory usage
+        # /usr/bin/time -v outputs statistics to stderr (file descriptor 2)
+        # vimz outputs to stdout (file descriptor 1) and some to stderr (2)
+        # We capture everything and separate later, or use a wrapper
+        # Simple approach: capture all to log, then extract time stats from end
+        (/usr/bin/time -v vimz \
             --circuit "$CIRCUIT_FILE" \
             --function "$TRANSFORMATION" \
             --input "$json_file" \
             --output "$OUTPUT_PROOF" \
             --resolution "$RESOLUTION" \
-            --witnessgenerator "$WITNESS_GEN" \
-            2>&1 | tee "$LOG_FILE"
+            --witnessgenerator "$WITNESS_GEN") \
+            > "$LOG_FILE" 2> "$TIME_STATS"
+        VIMZ_EXIT=$?
         
-        if [ $? -eq 0 ]; then
+        # Combine time stats into the log file for easier viewing
+        echo "" >> "$LOG_FILE"
+        echo "=== Memory and Resource Statistics ===" >> "$LOG_FILE"
+        cat "$TIME_STATS" >> "$LOG_FILE"
+        
+        if [ $VIMZ_EXIT -eq 0 ]; then
             echo "  ✓ Proof saved: ${BASENAME}_proof.json"
             
             # Extract metrics from log file
@@ -109,6 +121,19 @@ for json_file in "$FULL_INPUT_DIR"/*.json; do
             # Extract additional metrics
             PRIMARY_CONSTRAINTS=$(grep "Number of constraints per step (primary circuit):" "$LOG_FILE" | grep -oP ": \K[0-9]+" || echo "N/A")
             PRIMARY_VARIABLES=$(grep "Number of variables per step (primary circuit):" "$LOG_FILE" | grep -oP ": \K[0-9]+" || echo "N/A")
+            
+            # Extract peak memory from time statistics (Maximum resident set size in kbytes)
+            # Convert to MB for easier reading (divide by 1024)
+            PEAK_MEMORY_KB=$(grep "Maximum resident set size (kbytes):" "$TIME_STATS" 2>/dev/null | grep -oP ":\s*\K[0-9]+" || echo "N/A")
+            if [ "$PEAK_MEMORY_KB" != "N/A" ] && [ -n "$PEAK_MEMORY_KB" ]; then
+                # Calculate MB (kb / 1024), round to 2 decimal places
+                PEAK_MEMORY_MB=$(echo "scale=2; $PEAK_MEMORY_KB / 1024" | bc 2>/dev/null || echo "N/A")
+            else
+                PEAK_MEMORY_MB="N/A"
+            fi
+            
+            # Clean up time stats file (optional, or keep for debugging)
+            # rm -f "$TIME_STATS"
             
             # Create JSON object for this result
             JSON_RESULT=$(cat <<EOF
@@ -124,7 +149,9 @@ for json_file in "$FULL_INPUT_DIR"/*.json; do
   "compressed_prove_time_s": "$COMPRESSED_PROVE",
   "compressed_verify_time_s": "$COMPRESSED_VERIFY",
   "primary_constraints": "$PRIMARY_CONSTRAINTS",
-  "primary_variables": "$PRIMARY_VARIABLES"
+  "primary_variables": "$PRIMARY_VARIABLES",
+  "peak_memory_kb": "$PEAK_MEMORY_KB",
+  "peak_memory_mb": "$PEAK_MEMORY_MB"
 }
 EOF
 )

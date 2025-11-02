@@ -21,6 +21,8 @@ def extract_metrics_from_log(log_file):
         "compressed_verify_ms": None,
         "primary_constraints": None,
         "primary_variables": None,
+        "peak_memory_kb": None,
+        "peak_memory_mb": None,
     }
     
     try:
@@ -85,6 +87,16 @@ def extract_metrics_from_log(log_file):
                     metrics["primary_variables"] = int(line.split(":")[1].strip())
                 except:
                     pass
+            
+            elif "Maximum resident set size (kbytes):" in line:
+                try:
+                    # Extract the memory value (format: "Maximum resident set size (kbytes): 123456")
+                    memory_str = line.split(":")[1].strip()
+                    metrics["peak_memory_kb"] = int(memory_str)
+                    # Also calculate MB
+                    metrics["peak_memory_mb"] = round(metrics["peak_memory_kb"] / 1024.0, 2)
+                except:
+                    pass
     
     except Exception as e:
         print(f"Error reading {log_file}: {e}")
@@ -126,6 +138,8 @@ def main():
         "compressed_verify_ms",
         "primary_constraints",
         "primary_variables",
+        "peak_memory_kb",
+        "peak_memory_mb",
     ]
     
     with open(output_csv, 'w', newline='') as csvfile:

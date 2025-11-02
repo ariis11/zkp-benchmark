@@ -1,5 +1,5 @@
 # Rust/Cargo build artifacts
-**/target/
+**/vimz/target/
 *.rlib
 *.so
 
