@@ -1,0 +1,1324 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/outputs_hd/passport_0078.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/proofs_server_hd/passport_0078_proof.json
+| Selected function: sharpness
+| Circuit file: circuits/sharpness_step_HD.r1cs
+| Witness generator: circuits/sharpness_step_HD_cpp/sharpness_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/sharpness_step_HD_cpp/sharpness_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 13.240385263s
+Number of constraints per step (primary circuit): 682604
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 659560
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+stdout: stderr: terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: stderr: terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: stderr: terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: stderr: terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: stderr: terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: sharpness_step_HD: sharpness_step_HD.cpp:260394: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+
+=== Memory and Resource Statistics ===
+
+thread 'main' (312221) panicked at /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nova-scotia-0.5.0/src/circom/reader.rs:107:10:
+unable to open.: Os { code: 2, kind: NotFound, message: "No such file or directory" }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Command exited with non-zero status 101
+	Command being timed: "vimz --circuit circuits/sharpness_step_HD.r1cs --function sharpness --input /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/outputs_hd/passport_0078.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/proofs_server_hd/passport_0078_proof.json --resolution HD --witnessgenerator circuits/sharpness_step_HD_cpp/sharpness_step_HD"
+	User time (seconds): 2967.77
+	System time (seconds): 101.56
+	Percent of CPU this job got: 425%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 12:02.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2675084
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33360005
+	Voluntary context switches: 887071
+	Involuntary context switches: 2837428
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 1771464
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 101

@@ -1,0 +1,56 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/grayscale/outputs_hd/passport_0008.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/grayscale/proofs_server_hd/passport_0008_proof.json
+| Selected function: grayscale
+| Circuit file: circuits/grayscale_step_HD.r1cs
+| Witness generator: circuits/grayscale_step_HD_cpp/grayscale_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/grayscale_step_HD_cpp/grayscale_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 6.290736881s
+Number of constraints per step (primary circuit): 270426
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 265300
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 295.67584959s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x3a646470e0ad1f1c65a79d58821e44832cc2c83b13650fe9b46ed7a743ce3cae, 0x2f0a9abe56b5aa552e485a46feea73ab31b07ff181d6b1fdb487c043e920db63], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 209.987816ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 7.715597722s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 436.30794ms
+
+=== Memory and Resource Statistics ===
+	Command being timed: "vimz --circuit circuits/grayscale_step_HD.r1cs --function grayscale --input /home/ubuntu/zkp-benchmark/vimz/image_converter/grayscale/outputs_hd/passport_0008.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/grayscale/proofs_server_hd/passport_0008_proof.json --resolution HD --witnessgenerator circuits/grayscale_step_HD_cpp/grayscale_step_HD"
+	User time (seconds): 2025.09
+	System time (seconds): 33.88
+	Percent of CPU this job got: 662%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:10.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1526832
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 7914381
+	Voluntary context switches: 429495
+	Involuntary context switches: 39627
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 11547616
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

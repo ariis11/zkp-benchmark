@@ -1,0 +1,56 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/resize/outputs_hd/passport_0018.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/resize/proofs_server_hd/passport_0018_proof.json
+| Selected function: resize
+| Circuit file: circuits/resize_step_HD.r1cs
+| Witness generator: circuits/resize_step_HD_cpp/resize_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/resize_step_HD_cpp/resize_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 7.456988694s
+Number of constraints per step (primary circuit): 551514
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 536148
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 214.266274201s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x1c67cabdb156ef42918e21b46a558196fefa5952ed833cec6fb25d01a5c50c4e, 0x10f00f5e193a5b9c6b11549ed0e43e8a420f0ccf5873d267bf1e9b6f713389d8], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 353.784448ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 14.5591251s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 618.438805ms
+
+=== Memory and Resource Statistics ===
+	Command being timed: "vimz --circuit circuits/resize_step_HD.r1cs --function resize --input /home/ubuntu/zkp-benchmark/vimz/image_converter/resize/outputs_hd/passport_0018.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/resize/proofs_server_hd/passport_0018_proof.json --resolution HD --witnessgenerator circuits/resize_step_HD_cpp/resize_step_HD"
+	User time (seconds): 1177.46
+	System time (seconds): 39.04
+	Percent of CPU this job got: 511%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:57.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2220224
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13097483
+	Voluntary context switches: 168945
+	Involuntary context switches: 22198
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 7947296
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,52 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0003.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/proofs_server_hd/passport_0003_proof.json
+| Selected function: blur
+| Circuit file: circuits/blur_step_HD.r1cs
+| Witness generator: circuits/blur_step_HD_cpp/blur_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/blur_step_HD_cpp/blur_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 12.822082899s
+Number of constraints per step (primary circuit): 559724
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 544360
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+
+=== Memory and Resource Statistics ===
+
+thread 'main' (327929) panicked at /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nova-scotia-0.5.0/src/circom/reader.rs:109:10:
+read witness failed: failed to fill whole buffer
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Command exited with non-zero status 101
+	Command being timed: "vimz --circuit circuits/blur_step_HD.r1cs --function blur --input /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0003.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/proofs_server_hd/passport_0003_proof.json --resolution HD --witnessgenerator circuits/blur_step_HD_cpp/blur_step_HD"
+	User time (seconds): 159.12
+	System time (seconds): 3.34
+	Percent of CPU this job got: 566%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2491744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1211727
+	Voluntary context switches: 19603
+	Involuntary context switches: 139587
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 500864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 101

@@ -1,0 +1,56 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/outputs_hd/passport_0010.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/proofs_server_hd/passport_0010_proof.json
+| Selected function: sharpness
+| Circuit file: circuits/sharpness_step_HD.r1cs
+| Witness generator: circuits/sharpness_step_HD_cpp/sharpness_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/sharpness_step_HD_cpp/sharpness_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 11.912901142s
+Number of constraints per step (primary circuit): 682604
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 659560
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 773.854056615s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x0b68c278550e9c67bd67f18d81f9bbde8c89690d743407d45a72ba91ef9e4f36, 0x3590781de9c2b95ddf30682b86a8afeb00c2c4073cd6abf3b61476b2b7cf78e1, 0x25beeda5e40ffe80f14bca13ad50e72ee2b1291b41d1a2699a499e6a34956a71, 0x2fa24a779d4d1a339cd973615bf9028b8c45971ae86dcebaa1ca65a8b72cad8f], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 416.03496ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 15.326590227s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 705.405087ms
+
+=== Memory and Resource Statistics ===
+	Command being timed: "vimz --circuit circuits/sharpness_step_HD.r1cs --function sharpness --input /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/outputs_hd/passport_0010.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/proofs_server_hd/passport_0010_proof.json --resolution HD --witnessgenerator circuits/sharpness_step_HD_cpp/sharpness_step_HD"
+	User time (seconds): 3380.09
+	System time (seconds): 158.36
+	Percent of CPU this job got: 440%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 13:22.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2984052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54862045
+	Voluntary context switches: 516105
+	Involuntary context switches: 62664
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 29266864
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

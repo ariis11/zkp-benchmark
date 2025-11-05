@@ -1,0 +1,23 @@
+	Command being timed: "vimz --circuit circuits/grayscale_step_HD.r1cs --function grayscale --input /home/ubuntu/zkp-benchmark/vimz/image_converter/grayscale/outputs_hd/passport_0024.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/grayscale/proofs_server_hd/passport_0024_proof.json --resolution HD --witnessgenerator circuits/grayscale_step_HD_cpp/grayscale_step_HD"
+	User time (seconds): 2052.10
+	System time (seconds): 29.84
+	Percent of CPU this job got: 669%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 5:11.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1518164
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 6554833
+	Voluntary context switches: 425293
+	Involuntary context switches: 41825
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 11547616
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

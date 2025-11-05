@@ -1,0 +1,28 @@
+
+thread 'main' (311900) panicked at /home/ubuntu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/nova-scotia-0.5.0/src/circom/circuit.rs:105:33:
+index out of bounds: the len is 532991 but the index is 532991
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Command exited with non-zero status 101
+	Command being timed: "vimz --circuit circuits/sharpness_step_HD.r1cs --function sharpness --input /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/outputs_hd/passport_0073.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/sharpness/proofs_server_hd/passport_0073_proof.json --resolution HD --witnessgenerator circuits/sharpness_step_HD_cpp/sharpness_step_HD"
+	User time (seconds): 115.13
+	System time (seconds): 1.86
+	Percent of CPU this job got: 770%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2692132
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 859464
+	Voluntary context switches: 1185
+	Involuntary context switches: 9757
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40720
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 101

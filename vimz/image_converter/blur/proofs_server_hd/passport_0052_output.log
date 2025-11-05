@@ -1,0 +1,56 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0052.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/proofs_server_hd/passport_0052_proof.json
+| Selected function: blur
+| Circuit file: circuits/blur_step_HD.r1cs
+| Witness generator: circuits/blur_step_HD_cpp/blur_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/blur_step_HD_cpp/blur_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 11.529098359s
+Number of constraints per step (primary circuit): 559724
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 544360
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 630.7292668s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x09361a83e4181eb78b6f9b58bff9529bb8e7e9b4ba01c75091afab2d418499f0, 0x3590781de9c2b95ddf30682b86a8afeb00c2c4073cd6abf3b61476b2b7cf78e1, 0x03d0fc8dec461f0365a2e7c4418283d62a420828dad2d27126ccbf4378a384c4, 0x13048ae00ed1a7afb15c42d89e2c07f6054d008edea1eadc38b7bc1aa4f8c9aa], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 358.414594ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 15.390915868s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 702.195887ms
+
+=== Memory and Resource Statistics ===
+	Command being timed: "vimz --circuit circuits/blur_step_HD.r1cs --function blur --input /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0052.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/proofs_server_hd/passport_0052_proof.json --resolution HD --witnessgenerator circuits/blur_step_HD_cpp/blur_step_HD"
+	User time (seconds): 3117.39
+	System time (seconds): 87.87
+	Percent of CPU this job got: 486%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 10:59.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2791788
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24924762
+	Voluntary context switches: 457563
+	Involuntary context switches: 52298
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24075680
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

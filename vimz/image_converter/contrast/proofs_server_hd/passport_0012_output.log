@@ -1,0 +1,56 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/contrast/outputs_hd/passport_0012.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/contrast/proofs_server_hd/passport_0012_proof.json
+| Selected function: contrast
+| Circuit file: circuits/contrast_step_HD.r1cs
+| Witness generator: circuits/contrast_step_HD_cpp/contrast_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/contrast_step_HD_cpp/contrast_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 7.301628011s
+Number of constraints per step (primary circuit): 518749
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 495705
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 471.88751359s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x2e2c1e623617d3a057fdcd3eb693434c6a11fef2059de9fbf399ac4bc5607f84, 0x14fce9877854a1f4a7f8d3e28616794e757fc4b8c8e85a3959c8c748871d5ece, 0x000000000000000000000000000000000000000000000000000000000000000f], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 341.523172ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 8.080614155s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 439.823646ms
+
+=== Memory and Resource Statistics ===
+	Command being timed: "vimz --circuit circuits/contrast_step_HD.r1cs --function contrast --input /home/ubuntu/zkp-benchmark/vimz/image_converter/contrast/outputs_hd/passport_0012.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/contrast/proofs_server_hd/passport_0012_proof.json --resolution HD --witnessgenerator circuits/contrast_step_HD_cpp/contrast_step_HD"
+	User time (seconds): 2621.69
+	System time (seconds): 75.65
+	Percent of CPU this job got: 552%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:08.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1907028
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21803304
+	Voluntary context switches: 466075
+	Involuntary context switches: 54389
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 21930016
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

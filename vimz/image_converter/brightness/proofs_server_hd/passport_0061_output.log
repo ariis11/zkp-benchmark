@@ -1,0 +1,56 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/brightness/outputs_hd/passport_0061.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/brightness/proofs_server_hd/passport_0061_proof.json
+| Selected function: brightness
+| Circuit file: circuits/brightness_step_HD.r1cs
+| Witness generator: circuits/brightness_step_HD_cpp/brightness_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/brightness_step_HD_cpp/brightness_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 7.297042524s
+Number of constraints per step (primary circuit): 518749
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 495705
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 465.935032633s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x2413f30597f5eee9657a107beba16564c61827985089438526ebdd9d5c9a18b7, 0x3c4c0f0d27cc161cd96d54487e53a7b15dff4de799a0d77a0c7105597967e2fe, 0x000000000000000000000000000000000000000000000000000000000000000f], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 356.952473ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 7.896240137s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 438.779582ms
+
+=== Memory and Resource Statistics ===
+	Command being timed: "vimz --circuit circuits/brightness_step_HD.r1cs --function brightness --input /home/ubuntu/zkp-benchmark/vimz/image_converter/brightness/outputs_hd/passport_0061.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/brightness/proofs_server_hd/passport_0061_proof.json --resolution HD --witnessgenerator circuits/brightness_step_HD_cpp/brightness_step_HD"
+	User time (seconds): 2554.49
+	System time (seconds): 58.24
+	Percent of CPU this job got: 541%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 8:02.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1956292
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14890447
+	Voluntary context switches: 456436
+	Involuntary context switches: 52344
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 21930016
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

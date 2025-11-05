@@ -1,0 +1,1181 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0007.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/proofs_server_hd/passport_0007_proof.json
+| Selected function: blur
+| Circuit file: circuits/blur_step_HD.r1cs
+| Witness generator: circuits/blur_step_HD_cpp/blur_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/blur_step_HD_cpp/blur_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 12.829033659s
+Number of constraints per step (primary circuit): 559724
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 544360
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+stdout: stderr: terminate called after throwing an instance of 'nlohmann::detail::parse_error'
+  what():  [json.exception.parse_error.101] parse error at line 1, column 1: syntax error while parsing value - unexpected end of input; expected '[', '{', or a literal
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+stdout: Failed assert in template/function IntegrityCheck line 257. Followed trace of components: main.integrity_checker
+stderr: blur_step_HD: blur_step_HD.cpp:260374: void IntegrityCheck_74_run(uint, Circom_CalcWit*): Assertion `Fr_isTrue(&expaux[0])' failed.
+RecursiveSNARK creation took 692.206657324s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Err(UnSat), took 400.891904ms
+
+=== Memory and Resource Statistics ===
+
+thread 'main' (328595) panicked at src/main.rs:238:5:
+assertion failed: res.is_ok()
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+Command exited with non-zero status 101
+	Command being timed: "vimz --circuit circuits/blur_step_HD.r1cs --function blur --input /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/outputs_hd/passport_0007.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/blur/proofs_server_hd/passport_0007_proof.json --resolution HD --witnessgenerator circuits/blur_step_HD_cpp/blur_step_HD"
+	User time (seconds): 2939.14
+	System time (seconds): 105.37
+	Percent of CPU this job got: 431%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 11:45.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2478284
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33925835
+	Voluntary context switches: 947736
+	Involuntary context switches: 2459949
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5316912
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 101

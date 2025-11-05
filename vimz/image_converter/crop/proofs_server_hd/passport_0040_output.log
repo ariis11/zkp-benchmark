@@ -1,0 +1,56 @@
+ ________________________________________________________
+                                                         
+ ██     ██  ██  ███    ███  ████████   Verifiable  Image
+ ██     ██  ██  ████  ████      ███    Manipulation from
+  ██   ██   ██  ██ ████ ██     ██      Folded   zkSNARKs
+   ██ ██    ██  ██  ██  ██   ███                         
+    ███     ██  ██      ██  ████████████ v1.3.0 ████████
+ ________________________________________________________
+| Input file: /home/ubuntu/zkp-benchmark/vimz/image_converter/crop/outputs_hd/passport_0040.json
+| Output file: /home/ubuntu/zkp-benchmark/vimz/image_converter/crop/proofs_server_hd/passport_0040_proof.json
+| Selected function: crop
+| Circuit file: circuits/optimized_crop_step_HD.r1cs
+| Witness generator: circuits/optimized_crop_step_HD_cpp/optimized_crop_step_HD
+| Image resolution: HD
+ ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+Running NOVA with witness generator: circuits/optimized_crop_step_HD_cpp/optimized_crop_step_HD and group: pasta_curves::curves::Ep
+Creating keys from R1CS took 3.837127391s
+Number of constraints per step (primary circuit): 157312
+Number of constraints per step (secondary circuit): 10347
+Number of variables per step (primary circuit): 156666
+Number of variables per step (secondary circuit): 10329
+Creating a RecursiveSNARK...
+RecursiveSNARK creation took 220.386495662s
+Verifying a RecursiveSNARK...
+RecursiveSNARK::verify: Ok(([0x22cdadefd21eb7a1383d5995b220e38c3f636c461df6db69ef0b06c003e98c25, 0x253975c1a9c864d71946a82a47b636451bdd9eb7222ec8bfa208cfabc0d292ab, 0x00000000000000000000000000000000000000000000000000000000000002d0], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 120.892775ms
+Generating a CompressedSNARK using Spartan with IPA-PC...
+CompressedSNARK::prove: true, took 4.039645888s
+Data has been written to output.json
+-------------- Load Data --------
+Verifying a CompressedSNARK...
+CompressedSNARK::verify: true, took 185.92576ms
+
+=== Memory and Resource Statistics ===
+	Command being timed: "vimz --circuit circuits/optimized_crop_step_HD.r1cs --function crop --input /home/ubuntu/zkp-benchmark/vimz/image_converter/crop/outputs_hd/passport_0040.json --output /home/ubuntu/zkp-benchmark/vimz/image_converter/crop/proofs_server_hd/passport_0040_proof.json --resolution HD --witnessgenerator circuits/optimized_crop_step_HD_cpp/optimized_crop_step_HD"
+	User time (seconds): 1187.03
+	System time (seconds): 18.91
+	Percent of CPU this job got: 527%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 3:48.73
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 839648
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3346935
+	Voluntary context switches: 446916
+	Involuntary context switches: 68994
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 6639048
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
