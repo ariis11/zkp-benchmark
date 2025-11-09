@@ -1,7 +1,6 @@
 # Rust/Cargo build artifacts
 **/vimz/target/
 **/veritas/target/
-**/veritas/benchmark/
 *.rlib
 *.so
 
