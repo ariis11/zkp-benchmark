@@ -1,0 +1,23 @@
+	Command being timed: "vimz --circuit circuits/brightness_step_HD.r1cs --function brightness --input /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/outputs_hd/passport_0010.json --output /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/proofs_laptop_hd/passport_0010_proof.json --resolution HD --witnessgenerator circuits/brightness_step_HD_cpp/brightness_step_HD"
+	User time (seconds): 7326.73
+	System time (seconds): 2743.59
+	Percent of CPU this job got: 231%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:12:32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1706540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 142
+	Minor (reclaiming a frame) page faults: 14576765
+	Voluntary context switches: 233329
+	Involuntary context switches: 1276157
+	Swaps: 0
+	File system inputs: 249440
+	File system outputs: 21930032
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

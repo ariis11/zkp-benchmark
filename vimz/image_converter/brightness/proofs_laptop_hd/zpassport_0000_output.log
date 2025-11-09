@@ -6,49 +6,49 @@
    ██ ██    ██  ██  ██  ██   ███                         
     ███     ██  ██      ██  ████████████ v1.3.0 ████████
  ________________________________________________________
-| Input file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/outputs_hd/passport_0000.json
-| Output file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/proofs_laptop_hd/passport_0000_proof.json
+| Input file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/outputs_hd/zpassport_0000.json
+| Output file: /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/proofs_laptop_hd/zpassport_0000_proof.json
 | Selected function: brightness
 | Circuit file: circuits/brightness_step_HD.r1cs
 | Witness generator: circuits/brightness_step_HD_cpp/brightness_step_HD
 | Image resolution: HD
  ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
 Running NOVA with witness generator: circuits/brightness_step_HD_cpp/brightness_step_HD and group: pasta_curves::curves::Ep
-Creating keys from R1CS took 23.12750535s
+Creating keys from R1CS took 18.589515107s
 Number of constraints per step (primary circuit): 518749
 Number of constraints per step (secondary circuit): 10347
 Number of variables per step (primary circuit): 495705
 Number of variables per step (secondary circuit): 10329
 Creating a RecursiveSNARK...
-RecursiveSNARK creation took 4307.256082256s
+RecursiveSNARK creation took 1188.475022528s
 Verifying a RecursiveSNARK...
-RecursiveSNARK::verify: Ok(([0x153cfbb881d63efb985966f17898aa694d46911014d4ae5f0a4320f975d4ff9c, 0x0dd85d4ce4a98ef0be66c57294d313753d48f44e035eee0ea5ad338b9c0a5311, 0x000000000000000000000000000000000000000000000000000000000000000f], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 4.364348511s
+RecursiveSNARK::verify: Ok(([0x153cfbb881d63efb985966f17898aa694d46911014d4ae5f0a4320f975d4ff9c, 0x0dd85d4ce4a98ef0be66c57294d313753d48f44e035eee0ea5ad338b9c0a5311, 0x000000000000000000000000000000000000000000000000000000000000000f], [0x0000000000000000000000000000000000000000000000000000000000000000])), took 1.34618673s
 Generating a CompressedSNARK using Spartan with IPA-PC...
-CompressedSNARK::prove: true, took 95.167057212s
+CompressedSNARK::prove: true, took 27.681237554s
 Data has been written to output.json
 -------------- Load Data --------
 Verifying a CompressedSNARK...
-CompressedSNARK::verify: true, took 4.489632007s
+CompressedSNARK::verify: true, took 985.734928ms
 
 === Memory and Resource Statistics ===
-	Command being timed: "vimz --circuit circuits/brightness_step_HD.r1cs --function brightness --input /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/outputs_hd/passport_0000.json --output /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/proofs_laptop_hd/passport_0000_proof.json --resolution HD --witnessgenerator circuits/brightness_step_HD_cpp/brightness_step_HD"
-	User time (seconds): 7298.47
-	System time (seconds): 2714.29
-	Percent of CPU this job got: 225%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:13:55
+	Command being timed: "vimz --circuit circuits/brightness_step_HD.r1cs --function brightness --input /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/outputs_hd/zpassport_0000.json --output /home/aristidas/Desktop/zkp-benchmark/vimz/image_converter/brightness/proofs_laptop_hd/zpassport_0000_proof.json --resolution HD --witnessgenerator circuits/brightness_step_HD_cpp/brightness_step_HD"
+	User time (seconds): 2300.93
+	System time (seconds): 509.51
+	Percent of CPU this job got: 227%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 20:37.64
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1600584
+	Maximum resident set size (kbytes): 1600684
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 23
-	Minor (reclaiming a frame) page faults: 17545422
-	Voluntary context switches: 233833
-	Involuntary context switches: 1361135
+	Major (requiring I/O) page faults: 4
+	Minor (reclaiming a frame) page faults: 19613142
+	Voluntary context switches: 280887
+	Involuntary context switches: 887448
 	Swaps: 0
-	File system inputs: 193336
-	File system outputs: 21930024
+	File system inputs: 178376
+	File system outputs: 21930016
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
