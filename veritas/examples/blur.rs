@@ -9,8 +9,8 @@ use std::time::{SystemTime, UNIX_EPOCH};
 use rand::rngs::OsRng;
 use rand::Rng;
 
-static H : usize = 14;
-static W : usize = 14;
+static H : usize = 720;
+static W : usize = 1280;
 static BLUR_H : usize = 6;
 static BLUR_W : usize = 6;
 

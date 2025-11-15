@@ -45,9 +45,10 @@ def apply_blur(image_array, blur_region=None):
         for j in range(start_col, end_col):
             # 3x3 box blur: sum of 9 neighbors / 9
             # This matches Veritas blur.rs exactly
-            sum_val = (image_array[i-1][j-1] + image_array[i-1][j] + image_array[i-1][j+1] +
-                      image_array[i][j-1]   + image_array[i][j]   + image_array[i][j+1] +
-                      image_array[i+1][j-1] + image_array[i+1][j] + image_array[i+1][j+1])
+            # Convert to int to avoid uint8 overflow
+            sum_val = (int(image_array[i-1][j-1]) + int(image_array[i-1][j]) + int(image_array[i-1][j+1]) +
+                      int(image_array[i][j-1])   + int(image_array[i][j])   + int(image_array[i][j+1]) +
+                      int(image_array[i+1][j-1]) + int(image_array[i+1][j]) + int(image_array[i+1][j+1]))
             
             # Round and clamp (matching Veritas: round(sum / 9.0))
             blurred[i][j] = int(round(sum_val / 9.0))

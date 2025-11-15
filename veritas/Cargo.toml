@@ -21,11 +21,13 @@ log = { version = "0.4.14", default-features = false }
 num = { version = "0.4", default-features = false, features = ["rand"] }
 rand = { version = "0.8.4", default-features = false }
 serde = { version = "1.0", default-features = false, features = ["derive"] }
+serde_json = { version = "1.0", default-features = false, features = ["std"] }
 static_assertions = { version = "1.1.0", default-features = false }
 unroll = { version = "0.1.5", default-features = false }
 sha256 = "1.1.2"
 plonky2 = "0.2.2"
 rayon = "1.10.0"
+clap = { version = "4.0", default-features = false, features = ["derive", "std"] }
 
 
 # Local dependencies
