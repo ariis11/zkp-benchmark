@@ -91,7 +91,8 @@ def main():
     }
     
     to_sizes = {
-        'SD': (240, 320),    # (height, width) - reduced size to fit memory (was 480x640)
+        #'SD': (360, 480),    # (height, width) - for 4GB RAM system
+        'SD': (480, 640),    # (height, width) - for server
         'FHD': (1080, 1920)  # (height, width) - downscale from 4K
     }
     

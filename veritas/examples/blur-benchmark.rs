@@ -10,8 +10,13 @@ use std::time::Instant;
 
 static H : usize = 720;
 static W : usize = 1280;
-static BLUR_H : usize = 6;
-static BLUR_W : usize = 6;
+// Starting at position (1,1) - top-left after border
+// Blur region for 4GB RAM system
+// static BLUR_H : usize = 80;
+// static BLUR_W : usize = 80;
+// Blur region for server
+static BLUR_H : usize = 718;
+static BLUR_W : usize = 1278;
 
 fn main() -> Result<()> {
     const D: usize = 2;

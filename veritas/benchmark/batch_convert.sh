@@ -87,11 +87,16 @@ for img in "$FULL_INPUT_DIR"/*.png; do
                     ${CROP_W:+--crop-width "$CROP_W"} \
                     ${CROP_H:+--crop-height "$CROP_H"}
             else
-                # Default: crop from (0,0) with resolution-based size (HD = 1280x720, matching VIMz)
+                # Default: crop same region as VIMz optimized_crop (matching circuit parameters)
+                # VIMz crops: 640×480 pixels at position (236, 105)
                 python3 "$SCRIPT_DIR/crop/crop.py" \
                     -i "$img" \
                     -o "$OUTPUT_FILE" \
-                    -r HD
+                    -r HD \
+                    --crop-x 236 \
+                    --crop-y 105 \
+                    --crop-width 640 \
+                    --crop-height 480
             fi
         
         elif [ "$TRANSFORMATION" == "resize" ]; then
@@ -105,14 +110,23 @@ for img in "$FULL_INPUT_DIR"/*.png; do
         
         elif [ "$TRANSFORMATION" == "grayscale" ] || [ "$TRANSFORMATION" == "gray" ]; then
             OUTPUT_FILE="$FULL_OUTPUT_DIR/${BASENAME}.json"
-            # Convert RGB to grayscale (process region 240x320 to fit memory, matching resize approach)
+            # Convert RGB to grayscale (full image, matching VIMz)
+            # Region: 480x640, for 4GB memory
+            #python3 "$SCRIPT_DIR/grayscale/grayscale.py" \
+            #    -i "$img" \
+            #    -o "$OUTPUT_FILE" \
+            #    -r HD \
+            #    --process-region \
+            #    --region-height 480 \
+            #    --region-width 640
+            # Region: 720x1280, for server memory
             python3 "$SCRIPT_DIR/grayscale/grayscale.py" \
                 -i "$img" \
                 -o "$OUTPUT_FILE" \
                 -r HD \
                 --process-region \
-                --region-height 240 \
-                --region-width 320
+                --region-height 720 \
+                --region-width 1280
         
         else
             echo "  ✗ Unknown transformation: $TRANSFORMATION"
