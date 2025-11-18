@@ -1,0 +1,32 @@
+    Finished `release` profile [optimized] target(s) in 0.06s
+     Running `target/release/examples/gray-benchmark /home/ubuntu/zkp-benchmark/veritas/benchmark/grayscale/outputs_hd/passport_0008.json`
+Circuit build took: 49.442303360s
+Number of constraints: 5
+Number of variables: 2764800
+Proof generation took: 30.160400107s
+Verification took: 168.064530000ms
+	Command being timed: "cargo run --release --example gray-benchmark -- /home/ubuntu/zkp-benchmark/veritas/benchmark/grayscale/outputs_hd/passport_0008.json"
+	User time (seconds): 363.31
+	System time (seconds): 87.96
+	Percent of CPU this job got: 546%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:22.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 16948452
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10899177
+	Voluntary context switches: 55630
+	Involuntary context switches: 2332
+	Swaps: 0
+	File system inputs: 118288
+	File system outputs: 192
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+=== Memory and Resource Statistics ===
