@@ -25,31 +25,31 @@ warning: variable `W_NEW` should have a snake case name
    |         ^^^^^ help: convert the identifier to snake case: `w_new`
 
 warning: `zk-veritas` (example "resize-benchmark") generated 4 warnings
-    Finished `release` profile [optimized] target(s) in 0.04s
-     Running `target/release/examples/resize-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_hd/passport_0038.json`
-Circuit build took: 7.543390087s
+    Finished `release` profile [optimized] target(s) in 0.20s
+     Running `target/release/examples/resize-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_laptop_hd/passport_0038.json`
+Circuit build took: 37.507056734s
 Number of constraints: 5
-Number of variables: 307200
-Proof generation took: 7.375447980s
-Verification took: 24.608970000ms
-	Command being timed: "cargo run --release --example resize-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_hd/passport_0038.json"
-	User time (seconds): 29.68
-	System time (seconds): 7.63
-	Percent of CPU this job got: 241%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.45
+Number of variables: 691200
+Proof generation took: 53.279624457s
+Verification took: 54.013447000ms
+	Command being timed: "cargo run --release --example resize-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_laptop_hd/passport_0038.json"
+	User time (seconds): 231.76
+	System time (seconds): 57.62
+	Percent of CPU this job got: 313%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:32.31
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2330400
+	Maximum resident set size (kbytes): 4570396
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 943912
-	Voluntary context switches: 2008
-	Involuntary context switches: 4923
+	Minor (reclaiming a frame) page faults: 1802085
+	Voluntary context switches: 1504
+	Involuntary context switches: 10857
 	Swaps: 0
-	File system inputs: 0
-	File system outputs: 8
+	File system inputs: 23264
+	File system outputs: 24
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

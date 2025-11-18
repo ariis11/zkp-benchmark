@@ -1,28 +1,28 @@
-    Finished `release` profile [optimized] target(s) in 0.04s
-     Running `target/release/examples/gray-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_hd/passport_0003.json`
-Circuit build took: 6.788388787s
+    Finished `release` profile [optimized] target(s) in 0.14s
+     Running `target/release/examples/gray-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_laptop_hd/passport_0003.json`
+Circuit build took: 34.399272297s
 Number of constraints: 5
-Number of variables: 230400
-Proof generation took: 6.881737030s
-Verification took: 21.294518000ms
-	Command being timed: "cargo run --release --example gray-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_hd/passport_0003.json"
-	User time (seconds): 24.56
-	System time (seconds): 11.64
-	Percent of CPU this job got: 258%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.02
+Number of variables: 921600
+Proof generation took: 36.138649707s
+Verification took: 85.624912000ms
+	Command being timed: "cargo run --release --example gray-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_laptop_hd/passport_0003.json"
+	User time (seconds): 153.43
+	System time (seconds): 53.62
+	Percent of CPU this job got: 288%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:11.72
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2300300
+	Maximum resident set size (kbytes): 4720448
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 900986
-	Voluntary context switches: 879
-	Involuntary context switches: 1321
+	Minor (reclaiming a frame) page faults: 1855011
+	Voluntary context switches: 1390
+	Involuntary context switches: 9625
 	Swaps: 0
-	File system inputs: 0
-	File system outputs: 8
+	File system inputs: 39312
+	File system outputs: 24
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

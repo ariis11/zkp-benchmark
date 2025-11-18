@@ -26,29 +26,29 @@ warning: variable `W_NEW` should have a snake case name
 
 warning: `zk-veritas` (example "resize-benchmark") generated 4 warnings
     Finished `release` profile [optimized] target(s) in 0.04s
-     Running `target/release/examples/resize-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_hd/passport_0012.json`
-Circuit build took: 7.530433031s
+     Running `target/release/examples/resize-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_laptop_hd/passport_0012.json`
+Circuit build took: 16.444950109s
 Number of constraints: 5
-Number of variables: 307200
-Proof generation took: 7.159763788s
-Verification took: 19.497904000ms
-	Command being timed: "cargo run --release --example resize-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_hd/passport_0012.json"
-	User time (seconds): 30.80
-	System time (seconds): 6.16
-	Percent of CPU this job got: 244%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.11
+Number of variables: 691200
+Proof generation took: 14.255868768s
+Verification took: 34.658900000ms
+	Command being timed: "cargo run --release --example resize-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/resize/outputs_laptop_hd/passport_0012.json"
+	User time (seconds): 60.50
+	System time (seconds): 15.77
+	Percent of CPU this job got: 242%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.46
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2350792
+	Maximum resident set size (kbytes): 4562016
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 949005
-	Voluntary context switches: 1594
-	Involuntary context switches: 4162
+	Minor (reclaiming a frame) page faults: 1800055
+	Voluntary context switches: 2080
+	Involuntary context switches: 3145
 	Swaps: 0
-	File system inputs: 0
+	File system inputs: 23408
 	File system outputs: 8
 	Socket messages sent: 0
 	Socket messages received: 0

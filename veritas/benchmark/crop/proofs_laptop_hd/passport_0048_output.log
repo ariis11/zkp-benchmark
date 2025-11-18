@@ -27,31 +27,31 @@ warning: variable `NEW_SIZE` should have a snake case name
    |         ^^^^^^^^ help: convert the identifier to snake case: `new_size`
 
 warning: `zk-veritas` (example "crop-benchmark") generated 4 warnings (run `cargo fix --example "crop-benchmark" -p zk-veritas` to apply 2 suggestions)
-    Finished `release` profile [optimized] target(s) in 0.04s
+    Finished `release` profile [optimized] target(s) in 0.05s
      Running `target/release/examples/crop-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0048.json`
-Circuit build took: 16.875334831s
+Circuit build took: 8.223795241s
 Number of constraints: 4
-Number of variables: 921600
-Proof generation took: 15.074867038s
-Verification took: 132.704196000ms
+Number of variables: 307200
+Proof generation took: 7.053327651s
+Verification took: 56.377506000ms
 	Command being timed: "cargo run --release --example crop-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0048.json"
-	User time (seconds): 68.05
-	System time (seconds): 10.22
-	Percent of CPU this job got: 238%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.76
+	User time (seconds): 31.03
+	System time (seconds): 7.65
+	Percent of CPU this job got: 245%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.75
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4495964
+	Maximum resident set size (kbytes): 2278520
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1715312
-	Voluntary context switches: 2857
-	Involuntary context switches: 4334
+	Minor (reclaiming a frame) page faults: 867104
+	Voluntary context switches: 1184
+	Involuntary context switches: 1279
 	Swaps: 0
-	File system inputs: 39344
-	File system outputs: 16
+	File system inputs: 26240
+	File system outputs: 8
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

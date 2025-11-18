@@ -29,29 +29,29 @@ warning: variable `NEW_SIZE` should have a snake case name
 warning: `zk-veritas` (example "crop-benchmark") generated 4 warnings (run `cargo fix --example "crop-benchmark" -p zk-veritas` to apply 2 suggestions)
     Finished `release` profile [optimized] target(s) in 0.04s
      Running `target/release/examples/crop-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0047.json`
-Circuit build took: 16.581712869s
+Circuit build took: 7.433084177s
 Number of constraints: 4
-Number of variables: 921600
-Proof generation took: 14.714922690s
-Verification took: 166.078811000ms
+Number of variables: 307200
+Proof generation took: 8.542835894s
+Verification took: 68.933707000ms
 	Command being timed: "cargo run --release --example crop-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0047.json"
-	User time (seconds): 61.97
-	System time (seconds): 15.67
-	Percent of CPU this job got: 241%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.14
+	User time (seconds): 30.33
+	System time (seconds): 6.79
+	Percent of CPU this job got: 225%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.43
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4539264
+	Maximum resident set size (kbytes): 2314888
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1726099
-	Voluntary context switches: 1009
-	Involuntary context switches: 1183
+	Minor (reclaiming a frame) page faults: 876102
+	Voluntary context switches: 3222
+	Involuntary context switches: 13576
 	Swaps: 0
-	File system inputs: 39152
-	File system outputs: 16
+	File system inputs: 26152
+	File system outputs: 8
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

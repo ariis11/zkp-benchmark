@@ -27,30 +27,30 @@ warning: variable `NEW_SIZE` should have a snake case name
    |         ^^^^^^^^ help: convert the identifier to snake case: `new_size`
 
 warning: `zk-veritas` (example "crop-benchmark") generated 4 warnings (run `cargo fix --example "crop-benchmark" -p zk-veritas` to apply 2 suggestions)
-    Finished `release` profile [optimized] target(s) in 0.04s
+    Finished `release` profile [optimized] target(s) in 0.17s
      Running `target/release/examples/crop-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0016.json`
-Circuit build took: 17.704496385s
+Circuit build took: 18.629281129s
 Number of constraints: 4
-Number of variables: 921600
-Proof generation took: 15.050096578s
-Verification took: 154.619222000ms
+Number of variables: 307200
+Proof generation took: 19.954982310s
+Verification took: 61.200846000ms
 	Command being timed: "cargo run --release --example crop-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0016.json"
-	User time (seconds): 62.44
-	System time (seconds): 16.30
-	Percent of CPU this job got: 234%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.56
+	User time (seconds): 70.56
+	System time (seconds): 34.45
+	Percent of CPU this job got: 264%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.65
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4623600
+	Maximum resident set size (kbytes): 2325816
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1747256
-	Voluntary context switches: 4266
-	Involuntary context switches: 9936
+	Minor (reclaiming a frame) page faults: 878756
+	Voluntary context switches: 1014
+	Involuntary context switches: 5434
 	Swaps: 0
-	File system inputs: 39368
+	File system inputs: 26240
 	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0

@@ -1,28 +1,28 @@
-    Finished `release` profile [optimized] target(s) in 0.14s
+    Finished `release` profile [optimized] target(s) in 0.05s
      Running `target/release/examples/blur-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/blur/outputs_hd/passport_0023.json`
-Circuit build took: 36.890851556s
+Circuit build took: 15.772403235s
 Number of constraints: 6
-Number of variables: 921636
-Proof generation took: 66.140518839s
-Verification took: 303.663844000ms
+Number of variables: 928000
+Proof generation took: 40.912115663s
+Verification took: 427.745482000ms
 	Command being timed: "cargo run --release --example blur-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/blur/outputs_hd/passport_0023.json"
-	User time (seconds): 267.02
-	System time (seconds): 46.27
-	Percent of CPU this job got: 299%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:44.68
+	User time (seconds): 106.90
+	System time (seconds): 15.32
+	Percent of CPU this job got: 209%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.39
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4358220
+	Maximum resident set size (kbytes): 4366760
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 1680789
-	Voluntary context switches: 1711
-	Involuntary context switches: 15524
+	Minor (reclaiming a frame) page faults: 1700408
+	Voluntary context switches: 2414
+	Involuntary context switches: 13023
 	Swaps: 0
 	File system inputs: 39240
-	File system outputs: 232
+	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

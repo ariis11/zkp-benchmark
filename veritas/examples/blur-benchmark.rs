@@ -12,11 +12,18 @@ static H : usize = 720;
 static W : usize = 1280;
 // Starting at position (1,1) - top-left after border
 // Blur region for 4GB RAM system
-// static BLUR_H : usize = 80;
-// static BLUR_W : usize = 80;
-// Blur region for server
-static BLUR_H : usize = 718;
-static BLUR_W : usize = 1278;
+//static BLUR_H : usize = 80;
+//static BLUR_W : usize = 80;
+// Blur region for server (c7a.4xlarge: 32GB RAM)
+// Conservative: 400×700 (~25GB estimated, safe)
+//static BLUR_H : usize = 400;
+//static BLUR_W : usize = 700;
+// Moderate: 500×900 (~35GB estimated, may fail on 32GB)
+static BLUR_H : usize = 500;
+static BLUR_W : usize = 900;
+// Full image: 718×1278 (~64GB estimated, will fail on 32GB)
+//static BLUR_H : usize = 718;
+//static BLUR_W : usize = 1278;
 
 fn main() -> Result<()> {
     const D: usize = 2;

@@ -1,28 +1,28 @@
     Finished `release` profile [optimized] target(s) in 0.16s
-     Running `target/release/examples/gray-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_hd/passport_0035.json`
-Circuit build took: 23.725993297s
+     Running `target/release/examples/gray-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_laptop_hd/passport_0035.json`
+Circuit build took: 41.393663876s
 Number of constraints: 5
-Number of variables: 230400
-Proof generation took: 41.876475273s
-Verification took: 37.656745000ms
-	Command being timed: "cargo run --release --example gray-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_hd/passport_0035.json"
-	User time (seconds): 170.09
-	System time (seconds): 41.15
-	Percent of CPU this job got: 317%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:06.53
+Number of variables: 921600
+Proof generation took: 61.341847469s
+Verification took: 148.126404000ms
+	Command being timed: "cargo run --release --example gray-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/grayscale/outputs_laptop_hd/passport_0035.json"
+	User time (seconds): 263.65
+	System time (seconds): 62.96
+	Percent of CPU this job got: 312%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:44.48
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2306904
+	Maximum resident set size (kbytes): 4751660
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 902669
-	Voluntary context switches: 2198
-	Involuntary context switches: 8590
+	Minor (reclaiming a frame) page faults: 1862808
+	Voluntary context switches: 1616
+	Involuntary context switches: 11190
 	Swaps: 0
-	File system inputs: 0
-	File system outputs: 16
+	File system inputs: 39464
+	File system outputs: 24
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

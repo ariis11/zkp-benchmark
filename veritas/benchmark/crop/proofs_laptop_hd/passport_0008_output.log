@@ -27,31 +27,31 @@ warning: variable `NEW_SIZE` should have a snake case name
    |         ^^^^^^^^ help: convert the identifier to snake case: `new_size`
 
 warning: `zk-veritas` (example "crop-benchmark") generated 4 warnings (run `cargo fix --example "crop-benchmark" -p zk-veritas` to apply 2 suggestions)
-    Finished `release` profile [optimized] target(s) in 0.04s
+    Finished `release` profile [optimized] target(s) in 0.15s
      Running `target/release/examples/crop-benchmark /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0008.json`
-Circuit build took: 17.824923991s
+Circuit build took: 21.295583854s
 Number of constraints: 4
-Number of variables: 921600
-Proof generation took: 14.032929343s
-Verification took: 161.277872000ms
+Number of variables: 307200
+Proof generation took: 34.277233890s
+Verification took: 86.703499000ms
 	Command being timed: "cargo run --release --example crop-benchmark -- /home/aristidas/Desktop/zkp-benchmark/veritas/benchmark/crop/outputs_hd/passport_0008.json"
-	User time (seconds): 60.51
-	System time (seconds): 17.00
-	Percent of CPU this job got: 237%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.69
+	User time (seconds): 120.85
+	System time (seconds): 49.30
+	Percent of CPU this job got: 299%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:56.88
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4517140
+	Maximum resident set size (kbytes): 2300100
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 1
-	Minor (reclaiming a frame) page faults: 1720544
-	Voluntary context switches: 2130
-	Involuntary context switches: 4917
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 872293
+	Voluntary context switches: 1223
+	Involuntary context switches: 11312
 	Swaps: 0
-	File system inputs: 39448
-	File system outputs: 8
+	File system inputs: 26248
+	File system outputs: 16
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
