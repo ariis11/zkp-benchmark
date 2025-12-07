@@ -1,0 +1,84 @@
+    Finished `release` profile [optimized] target(s) in 0.04s
+     Running `target/release/examples/gray-benchmark /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0023.json 100`
+=========================================
+Tile-Based Grayscale Proof Generation
+=========================================
+JSON file: /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0023.json
+Tile height: 100 rows
+=========================================
+Image dimensions: 720x1280 pixels
+Number of tiles: 8
+
+Building tile circuit (100x1280 pixels per tile)...
+Circuit build took: 7.237571622s
+Number of constraints: 5
+Number of variables per tile: 384000
+
+Processing tile 1/8 (rows 0..100)
+  Proof generation: 8.945679110s
+  Verification: 39.705345000ms
+
+Processing tile 2/8 (rows 100..200)
+  Proof generation: 9.398648170s
+  Verification: 28.708120000ms
+
+Processing tile 3/8 (rows 200..300)
+  Proof generation: 8.677405425s
+  Verification: 31.627424000ms
+
+Processing tile 4/8 (rows 300..400)
+  Proof generation: 8.786406769s
+  Verification: 26.246272000ms
+
+Processing tile 5/8 (rows 400..500)
+  Proof generation: 8.941814593s
+  Verification: 29.789580000ms
+
+Processing tile 6/8 (rows 500..600)
+  Proof generation: 8.869712236s
+  Verification: 27.349409000ms
+
+Processing tile 7/8 (rows 600..700)
+  Proof generation: 8.773327306s
+  Verification: 33.469046000ms
+
+Processing tile 8/8 (rows 700..720)
+  Proof generation: 8.795753916s
+  Verification: 28.492299000ms
+
+=========================================
+Summary
+=========================================
+Total tiles processed: 8
+Circuit build time: 7.237571622s
+Total proof generation time: 71.188747525s
+Average proof time per tile: 8.898593441s
+Total verification time: 245.387495000ms
+Average verification time per tile: 30.673436875ms
+Variables per tile: 384000 (vs 2764800 for full image)
+=========================================
+	Command being timed: "cargo run --release --example gray-benchmark -- /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0023.json 100"
+	User time (seconds): 197.60
+	System time (seconds): 66.18
+	Percent of CPU this job got: 332%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:19.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2865020
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1504041
+	Voluntary context switches: 5922
+	Involuntary context switches: 10984
+	Swaps: 0
+	File system inputs: 117984
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+=== Memory and Resource Statistics ===

@@ -1,173 +1,80 @@
-   Compiling proc-macro2 v1.0.87
-   Compiling unicode-ident v1.0.13
-   Compiling libc v0.2.159
-   Compiling byteorder v1.5.0
-   Compiling cfg-if v1.0.0
-   Compiling crunchy v0.2.2
-   Compiling version_check v0.9.5
-   Compiling autocfg v1.4.0
-   Compiling crossbeam-utils v0.8.20
-   Compiling num-traits v0.2.19
-   Compiling quote v1.0.37
-   Compiling getrandom v0.2.15
-   Compiling syn v2.0.79
-   Compiling rand_core v0.6.4
-   Compiling typenum v1.17.0
-   Compiling generic-array v0.14.7
-   Compiling tiny-keccak v2.0.2
-   Compiling crossbeam-epoch v0.9.18
-   Compiling num-integer v0.1.46
-   Compiling either v1.13.0
-   Compiling rayon-core v1.12.1
-   Compiling serde v1.0.210
-   Compiling static_assertions v1.1.0
-   Compiling crossbeam-deque v0.8.5
-   Compiling syn v1.0.109
-   Compiling hex v0.4.3
-   Compiling once_cell v1.20.2
-   Compiling ahash v0.8.11
-   Compiling const-random-macro v0.1.16
-   Compiling anyhow v1.0.89
-   Compiling const-random v0.1.18
-   Compiling rayon v1.10.0
-   Compiling uint v0.9.5
-   Compiling zerocopy-derive v0.7.35
-   Compiling serde_derive v1.0.210
-   Compiling zerocopy v0.7.35
-   Compiling ppv-lite86 v0.2.20
-   Compiling rand_chacha v0.3.1
-   Compiling crypto-common v0.1.6
-   Compiling block-buffer v0.10.4
-   Compiling rand v0.8.5
-   Compiling fixed-hash v0.7.0
-   Compiling num-iter v0.1.45
-   Compiling num-bigint v0.4.6
-   Compiling num-complex v0.4.6
-   Compiling unroll v0.1.5
-   Compiling primitive-types v0.10.1
-   Compiling digest v0.10.7
-   Compiling num-rational v0.4.2
-   Compiling num v0.4.3
-   Compiling itertools v0.11.0
-   Compiling anstyle v1.0.13
-   Compiling cpufeatures v0.2.14
-   Compiling plonky2_util v0.2.0
-   Compiling bytes v1.7.2
-   Compiling clap_lex v0.7.6
-   Compiling pin-project-lite v0.2.14
-   Compiling heck v0.5.0
-   Compiling serde_json v1.0.143
-   Compiling clap_derive v4.5.49
-   Compiling tokio v1.40.0
-   Compiling clap_builder v4.5.51
-   Compiling plonky2_field v0.2.2
-   Compiling sha2 v0.10.8
-   Compiling hashbrown v0.14.5
-   Compiling keccak-hash v0.8.0
-   Compiling plonky2_maybe_rayon v0.2.0
-   Compiling async-trait v0.1.83
-   Compiling log v0.4.22
-   Compiling itoa v1.0.15
-   Compiling ryu v1.0.20
-   Compiling web-time v1.1.0
-   Compiling memchr v2.7.4
-   Compiling plonky2 v0.2.2
-   Compiling sha256 v1.5.0
-   Compiling clap v4.5.51
-   Compiling zk-tile-based v0.1.0 (/home/aristidas/Desktop/zkp-benchmark/tile-based)
-    Finished `release` profile [optimized] target(s) in 39.79s
-     Running `target/release/examples/gray-benchmark /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json 64`
+    Finished `release` profile [optimized] target(s) in 0.72s
+     Running `target/release/examples/gray-benchmark /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json 100`
 =========================================
 Tile-Based Grayscale Proof Generation
 =========================================
 JSON file: /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json
-Tile height: 64 rows
+Tile height: 100 rows
 =========================================
 Image dimensions: 720x1280 pixels
-Number of tiles: 12
+Number of tiles: 8
 
-Building tile circuit (64x1280 pixels per tile)...
-Circuit build took: 8.009068078s
+Building tile circuit (100x1280 pixels per tile)...
+Circuit build took: 7.276762662s
 Number of constraints: 5
-Number of variables per tile: 245760
+Number of variables per tile: 384000
 
-Processing tile 1/12 (rows 0..64)
-  Proof generation: 11.677747287s
-  Verification: 19.867141000ms
+Processing tile 1/8 (rows 0..100)
+  Proof generation: 7.922258601s
+  Verification: 49.495189000ms
 
-Processing tile 2/12 (rows 64..128)
-  Proof generation: 10.732305300s
-  Verification: 21.881486000ms
+Processing tile 2/8 (rows 100..200)
+  Proof generation: 10.501751842s
+  Verification: 28.507961000ms
 
-Processing tile 3/12 (rows 128..192)
-  Proof generation: 10.374168114s
-  Verification: 28.271124000ms
+Processing tile 3/8 (rows 200..300)
+  Proof generation: 9.573893042s
+  Verification: 24.621336000ms
 
-Processing tile 4/12 (rows 192..256)
-  Proof generation: 9.861623211s
-  Verification: 17.787335000ms
+Processing tile 4/8 (rows 300..400)
+  Proof generation: 9.160495127s
+  Verification: 24.302823000ms
 
-Processing tile 5/12 (rows 256..320)
-  Proof generation: 8.966293185s
-  Verification: 28.670910000ms
+Processing tile 5/8 (rows 400..500)
+  Proof generation: 9.264724241s
+  Verification: 30.260622000ms
 
-Processing tile 6/12 (rows 320..384)
-  Proof generation: 9.057271886s
-  Verification: 25.179337000ms
+Processing tile 6/8 (rows 500..600)
+  Proof generation: 9.168785093s
+  Verification: 23.524735000ms
 
-Processing tile 7/12 (rows 384..448)
-  Proof generation: 8.994799550s
-  Verification: 18.816030000ms
+Processing tile 7/8 (rows 600..700)
+  Proof generation: 9.329584094s
+  Verification: 41.205251000ms
 
-Processing tile 8/12 (rows 448..512)
-  Proof generation: 8.752486267s
-  Verification: 18.516252000ms
-
-Processing tile 9/12 (rows 512..576)
-  Proof generation: 8.727927079s
-  Verification: 26.538098000ms
-
-Processing tile 10/12 (rows 576..640)
-  Proof generation: 9.074547955s
-  Verification: 24.645187000ms
-
-Processing tile 11/12 (rows 640..704)
-  Proof generation: 8.754445598s
-  Verification: 34.186197000ms
-
-Processing tile 12/12 (rows 704..720)
-  Proof generation: 8.783902871s
-  Verification: 23.455852000ms
+Processing tile 8/8 (rows 700..720)
+  Proof generation: 9.023500768s
+  Verification: 32.917342000ms
 
 =========================================
 Summary
 =========================================
-Total tiles processed: 12
-Circuit build time: 8.009068078s
-Total proof generation time: 113.757518303s
-Average proof time per tile: 9.479793192s
-Total verification time: 287.814949000ms
-Average verification time per tile: 23.984579083ms
-Variables per tile: 245760 (vs 2764800 for full image)
+Total tiles processed: 8
+Circuit build time: 7.276762662s
+Total proof generation time: 73.944992808s
+Average proof time per tile: 9.243124101s
+Total verification time: 254.835259000ms
+Average verification time per tile: 31.854407375ms
+Variables per tile: 384000 (vs 2764800 for full image)
 =========================================
-	Command being timed: "cargo run --release --example gray-benchmark -- /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json 64"
-	User time (seconds): 331.23
-	System time (seconds): 145.55
-	Percent of CPU this job got: 293%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:42.60
+	Command being timed: "cargo run --release --example gray-benchmark -- /home/aristidas/Desktop/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json 100"
+	User time (seconds): 184.78
+	System time (seconds): 74.53
+	Percent of CPU this job got: 311%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:23.17
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2867312
+	Maximum resident set size (kbytes): 2854828
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 246
-	Minor (reclaiming a frame) page faults: 3611575
-	Voluntary context switches: 24449
-	Involuntary context switches: 99126
+	Major (requiring I/O) page faults: 263
+	Minor (reclaiming a frame) page faults: 1534808
+	Voluntary context switches: 9412
+	Involuntary context switches: 32886
 	Swaps: 0
-	File system inputs: 32608
-	File system outputs: 542280
+	File system inputs: 103288
+	File system outputs: 232
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
