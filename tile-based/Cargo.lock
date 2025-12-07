@@ -905,7 +905,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "zk-veritas"
+name = "zk-tile-based"
 version = "0.1.0"
 dependencies = [
  "ahash",

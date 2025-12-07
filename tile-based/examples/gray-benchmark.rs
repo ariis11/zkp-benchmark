@@ -77,7 +77,7 @@ fn main() -> Result<()> {
     // Parse command-line arguments
     let args: Vec<String> = std::env::args().collect();
     if args.len() < 2 {
-        eprintln!("Usage: gray-tiled-benchmark <json_file_path> [tile_height]");
+        eprintln!("Usage: gray-benchmark <json_file_path> [tile_height]");
         eprintln!("  tile_height: Height of each tile in rows (default: 64)");
         std::process::exit(1);
     }
