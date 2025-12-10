@@ -1,0 +1,100 @@
+    Finished `release` profile [optimized] target(s) in 0.06s
+     Running `target/release/examples/gray-benchmark /home/ubuntu/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0028.json 64`
+=========================================
+Tile-Based Grayscale Proof Generation
+=========================================
+JSON file: /home/ubuntu/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0028.json
+Tile height: 64 rows
+=========================================
+Image dimensions: 720x1280 pixels
+Number of tiles: 12
+
+Building tile circuit (64x1280 pixels per tile)...
+Circuit build took: 5.018604340s
+Number of constraints: 5
+Number of variables per tile: 245760
+
+Processing tile 1/12 (rows 0..64)
+  Proof generation: 3.694618481s
+  Verification: 20.106248000ms
+
+Processing tile 2/12 (rows 64..128)
+  Proof generation: 3.383588282s
+  Verification: 20.077968000ms
+
+Processing tile 3/12 (rows 128..192)
+  Proof generation: 3.400669674s
+  Verification: 20.050878000ms
+
+Processing tile 4/12 (rows 192..256)
+  Proof generation: 3.451235967s
+  Verification: 20.059278000ms
+
+Processing tile 5/12 (rows 256..320)
+  Proof generation: 3.461765403s
+  Verification: 20.082568000ms
+
+Processing tile 6/12 (rows 320..384)
+  Proof generation: 3.341660513s
+  Verification: 20.086968000ms
+
+Processing tile 7/12 (rows 384..448)
+  Proof generation: 3.487491545s
+  Verification: 20.160128000ms
+
+Processing tile 8/12 (rows 448..512)
+  Proof generation: 3.341694880s
+  Verification: 20.066848000ms
+
+Processing tile 9/12 (rows 512..576)
+  Proof generation: 3.455520203s
+  Verification: 20.084468000ms
+
+Processing tile 10/12 (rows 576..640)
+  Proof generation: 3.405097931s
+  Verification: 20.068348000ms
+
+Processing tile 11/12 (rows 640..704)
+  Proof generation: 3.449439258s
+  Verification: 20.078878000ms
+
+Processing tile 12/12 (rows 704..720)
+  Proof generation: 3.373328049s
+  Verification: 20.004778000ms
+
+=========================================
+Summary
+=========================================
+Total tiles processed: 12
+Circuit build time: 5.018604340s
+Total proof generation time: 41.246110186s
+Average proof time per tile: 3.437175849s
+Total verification time: 240.927356000ms
+Average verification time per tile: 20.077279667ms
+Variables per tile: 245760 (vs 2764800 for full image)
+=========================================
+	Command being timed: "cargo run --release --example gray-benchmark -- /home/ubuntu/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0028.json 64"
+	User time (seconds): 351.53
+	System time (seconds): 39.34
+	Percent of CPU this job got: 825%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3052448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1742575
+	Voluntary context switches: 27409
+	Involuntary context switches: 3340
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 160
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+=== Memory and Resource Statistics ===

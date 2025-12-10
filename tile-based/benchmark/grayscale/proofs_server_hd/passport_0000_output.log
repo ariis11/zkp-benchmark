@@ -1,0 +1,177 @@
+   Compiling proc-macro2 v1.0.87
+   Compiling unicode-ident v1.0.13
+   Compiling libc v0.2.159
+   Compiling byteorder v1.5.0
+   Compiling cfg-if v1.0.0
+   Compiling crunchy v0.2.2
+   Compiling version_check v0.9.5
+   Compiling autocfg v1.4.0
+   Compiling crossbeam-utils v0.8.20
+   Compiling typenum v1.17.0
+   Compiling tiny-keccak v2.0.2
+   Compiling static_assertions v1.1.0
+   Compiling either v1.13.0
+   Compiling rayon-core v1.12.1
+   Compiling serde v1.0.210
+   Compiling once_cell v1.20.2
+   Compiling hex v0.4.3
+   Compiling syn v1.0.109
+   Compiling anyhow v1.0.89
+   Compiling fixed-hash v0.7.0
+   Compiling itertools v0.11.0
+   Compiling generic-array v0.14.7
+   Compiling ahash v0.8.11
+   Compiling pin-project-lite v0.2.14
+   Compiling serde_json v1.0.143
+   Compiling num-traits v0.2.19
+   Compiling plonky2_util v0.2.0
+   Compiling anstyle v1.0.13
+   Compiling clap_lex v0.7.6
+   Compiling cpufeatures v0.2.14
+   Compiling heck v0.5.0
+   Compiling uint v0.9.5
+   Compiling bytes v1.7.2
+   Compiling primitive-types v0.10.1
+   Compiling log v0.4.22
+   Compiling clap_builder v4.5.51
+   Compiling ryu v1.0.20
+   Compiling web-time v1.1.0
+   Compiling memchr v2.7.4
+   Compiling itoa v1.0.15
+   Compiling quote v1.0.37
+   Compiling crossbeam-epoch v0.9.18
+   Compiling getrandom v0.2.15
+   Compiling tokio v1.40.0
+   Compiling rand_core v0.6.4
+   Compiling const-random-macro v0.1.16
+   Compiling syn v2.0.79
+   Compiling num-integer v0.1.46
+   Compiling crossbeam-deque v0.8.5
+   Compiling const-random v0.1.18
+   Compiling num-iter v0.1.45
+   Compiling keccak-hash v0.8.0
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.6
+   Compiling digest v0.10.7
+   Compiling sha2 v0.10.8
+   Compiling rayon v1.10.0
+   Compiling unroll v0.1.5
+   Compiling zerocopy-derive v0.7.35
+   Compiling serde_derive v1.0.210
+   Compiling clap_derive v4.5.49
+   Compiling async-trait v0.1.83
+   Compiling zerocopy v0.7.35
+   Compiling plonky2_maybe_rayon v0.2.0
+   Compiling sha256 v1.5.0
+   Compiling ppv-lite86 v0.2.20
+   Compiling clap v4.5.51
+   Compiling rand_chacha v0.3.1
+   Compiling rand v0.8.5
+   Compiling num-bigint v0.4.6
+   Compiling num-complex v0.4.6
+   Compiling num-rational v0.4.2
+   Compiling num v0.4.3
+   Compiling hashbrown v0.14.5
+   Compiling plonky2_field v0.2.2
+   Compiling plonky2 v0.2.2
+   Compiling zk-tile-based v0.1.0 (/home/ubuntu/zkp-benchmark/tile-based)
+    Finished `release` profile [optimized] target(s) in 13.54s
+     Running `target/release/examples/gray-benchmark /home/ubuntu/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json 64`
+=========================================
+Tile-Based Grayscale Proof Generation
+=========================================
+JSON file: /home/ubuntu/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json
+Tile height: 64 rows
+=========================================
+Image dimensions: 720x1280 pixels
+Number of tiles: 12
+
+Building tile circuit (64x1280 pixels per tile)...
+Circuit build took: 4.905608323s
+Number of constraints: 5
+Number of variables per tile: 245760
+
+Processing tile 1/12 (rows 0..64)
+  Proof generation: 3.670945781s
+  Verification: 20.111552000ms
+
+Processing tile 2/12 (rows 64..128)
+  Proof generation: 3.324371055s
+  Verification: 20.101381000ms
+
+Processing tile 3/12 (rows 128..192)
+  Proof generation: 3.479760058s
+  Verification: 20.070801000ms
+
+Processing tile 4/12 (rows 192..256)
+  Proof generation: 3.428958105s
+  Verification: 20.109162000ms
+
+Processing tile 5/12 (rows 256..320)
+  Proof generation: 3.356413761s
+  Verification: 20.114752000ms
+
+Processing tile 6/12 (rows 320..384)
+  Proof generation: 3.391872923s
+  Verification: 20.107731000ms
+
+Processing tile 7/12 (rows 384..448)
+  Proof generation: 3.329844684s
+  Verification: 20.084871000ms
+
+Processing tile 8/12 (rows 448..512)
+  Proof generation: 3.327530201s
+  Verification: 20.114782000ms
+
+Processing tile 9/12 (rows 512..576)
+  Proof generation: 3.354381620s
+  Verification: 20.100652000ms
+
+Processing tile 10/12 (rows 576..640)
+  Proof generation: 3.341174917s
+  Verification: 20.062542000ms
+
+Processing tile 11/12 (rows 640..704)
+  Proof generation: 3.381653526s
+  Verification: 20.096801000ms
+
+Processing tile 12/12 (rows 704..720)
+  Proof generation: 3.391443991s
+  Verification: 20.015641000ms
+
+=========================================
+Summary
+=========================================
+Total tiles processed: 12
+Circuit build time: 4.905608323s
+Total proof generation time: 40.778350622s
+Average proof time per tile: 3.398195885s
+Total verification time: 241.090668000ms
+Average verification time per tile: 20.090889000ms
+Variables per tile: 245760 (vs 2764800 for full image)
+=========================================
+	Command being timed: "cargo run --release --example gray-benchmark -- /home/ubuntu/zkp-benchmark/tile-based/benchmark/grayscale/outputs_hd/passport_0000.json 64"
+	User time (seconds): 403.46
+	System time (seconds): 45.74
+	Percent of CPU this job got: 744%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3046960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 4353
+	Minor (reclaiming a frame) page faults: 3723441
+	Voluntary context switches: 54270
+	Involuntary context switches: 6418
+	Swaps: 0
+	File system inputs: 584856
+	File system outputs: 543664
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+
+=== Memory and Resource Statistics ===
